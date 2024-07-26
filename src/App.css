@@ -1,0 +1,98 @@
+/* App.css */
+
+/* Styles for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 2px;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 1.5rem;
+   
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar ul li {
+    margin-right: 30px;
+}
+
+.navbar ul li:last-child {
+    margin-right: 30px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #f0f0f0;
+}
+
+.link{
+    text-decoration: none;
+}
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+   
+}
+
+.card{
+    border: 1px solid black;
+    width: 330px;
+    font-size: medium;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+button{
+    cursor: pointer;
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.card img{
+    width: 200px;
+    height: 200px;
+}
+.price{
+    color:white;
+    position: absolute;
+    right: 20px;
+    bottom:10%;
+    background-color: #333;
+    padding: 10px;
+
+}
+.ch{
+    color:white;
+    position: absolute;
+    right: 20px;
+    bottom:3%;
+    background-color: #333;
+    padding: 10px;
+}
